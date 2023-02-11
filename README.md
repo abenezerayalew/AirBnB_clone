@@ -1,10 +1,10 @@
-# AirBnB_clone - The Console
 
 ## Description
 The project is the initial phase in developing the AirBnB clone's whole web application. We are creating a console in this initial stage, a custom command interpreter that will be used in later AirBnB projects to handle the objects of our classes.
 
 We'll be able to accomplish the following using this console:
 
+  create a Python package
 ✔️ Create a new object (ex: a new User or a new Place)
 
 ✔️ Retrieve an object from a file, a database etc…
