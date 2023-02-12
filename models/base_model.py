@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Base Class of all model classes
+Parent class that will inherit
 """
 import uuid
 from datetime import datetime
