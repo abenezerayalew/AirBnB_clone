@@ -63,3 +63,20 @@ EOF  help  quit
 $
 ```
 ## Commands
+
+Command | Description
+--- | ---
+`quit` | Exits the program
+`EOF` | Exits the program
+`create <class>` | Creates an instance of a class
+`show <class> <id>` | Prints the string representation of an instance of a class based on class name and id
+`destroy <class> <id>` | Deletes instance of a class based on class name and id
+`all` | Prints all string representations of all instances
+`all <class>` | Prints all string representations of all instances based on class name
+`update <class> <id> <attribute name> "<attribute value>"` | Updates an attribute of an instance based on class name and id
+`<class>.all()` | Retrieves all instances of a class
+`<class>.count()` | Retrieves the number of instances of a class
+`<class>.show(<id>)` | Retrieves an instance based on its id
+`<class>.destroy(<id>)` | Destroys an instance based on its id
+
+---
