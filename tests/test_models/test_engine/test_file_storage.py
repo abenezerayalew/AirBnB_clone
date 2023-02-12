@@ -8,6 +8,7 @@ import os
 import json
 
 
+
 class FileStorageTests(unittest.TestCase):
     """ Unittest for FileStorage class """
 
