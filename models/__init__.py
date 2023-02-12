@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" this is Used to import modules and packages, and the storage object """
+""" This is used to import modules and packages, and the storage object """
 from models.engine.file_storage import FileStorage
 
 storage = FileStorage()
