@@ -1,5 +1,5 @@
 #!/usr/bin/python
-""" Amenity class, inherits from BaseModel """
+""" The Amenity class, inherits from BaseModel """
 from models.base_model import BaseModel
 
 class Amenity(BaseModel):
