@@ -1,7 +1,5 @@
 #!/usr/bin/python
-""" 
-Place class, inherits from BaseModel 
-"""
+""" Place class, inherits from BaseModel """
 from models.base_model import BaseModel
 
 class Place(BaseModel):
