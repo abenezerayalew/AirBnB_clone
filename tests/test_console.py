@@ -31,7 +31,6 @@ class TestHBNBCommand_prompting(unittest.TestCase):
             self.assertFalse(HBNBCommand().onecmd(""))
             self.assertEqual("", output.getvalue().strip())
 
-
 class TestHBNBCommand_help(unittest.TestCase):
     """Unittests for testing help messages of the HBNB command interpreter."""
 
@@ -114,7 +113,6 @@ class TestHBNBCommand_exit(unittest.TestCase):
     def test_EOF_exits(self):
         with patch("sys.stdout", new=StringIO()) as output:
             self.assertTrue(HBNBCommand().onecmd("EOF"))
-
 
 class TestHBNBCommand_create(unittest.TestCase):
     """Unittests for testing create from the HBNB command interpreter."""
