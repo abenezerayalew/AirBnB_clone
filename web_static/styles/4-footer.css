@@ -1,8 +1,9 @@
 footer {
-    margin-top: auto;
+    margin-top:38%;
     margin-bottom: -10px;
     background:white;
     border-top: 1px solid  #CCCCCC;
+    border-bottom: 1px solid  #CCCCCC;
     width: 100%;
     min-height: 60px;
     display: flex;
